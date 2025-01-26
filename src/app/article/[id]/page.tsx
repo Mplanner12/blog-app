@@ -52,7 +52,7 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
   try {
     const { id } = await params;
