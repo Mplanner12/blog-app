@@ -27,6 +27,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/tobams-logo.png" />
+      </head>
       <body
         className={`${nunito.variable} ${nunitoSans.variable} font-nunito antialiased`} // Use correct font variables and base font
       >
